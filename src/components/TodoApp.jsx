@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TodoList from './TodoList';
 
 class TodoApp extends Component {
 
@@ -45,5 +46,6 @@ class TodoApp extends Component {
       </div>
     );
   }
-
 }
+
+export default TodoApp;
