@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Timer from './Timer';
 import TodoApp from './TodoApp';
+import MarkdownEditor from './MarkdownEditor';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <Timer/>
         <TodoApp/>
+        <MarkdownEditor/>
       </div>
     );
   }
