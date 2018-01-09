@@ -12,23 +12,23 @@ class App extends Component {
   render() {
     return (
       <section className="section">
-        <section className="section">
-          <div className="container">
-            <div className="App">
-              <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <h1 className="App-title">Welcome to React</h1>
-              </header>
-              <p className="App-intro">
-                This starter has been modified using some examples found in
+        <div className="container">
+          <div className="columns">
+            <div className="column">
+              <div className="App">
+                <header className="App-header">
+                  <img src={logo} className="App-logo" alt="logo" />
+                  <h1 className="App-title">Welcome to React</h1>
+                </header>
+                <p className="App-intro">
+                  This starter has been modified using some examples found in
               </p>
-              <a className="button is-medium" href='https://reactjs.org' target='_blank' rel="noopener noreferrer">
-                https://reactjs.org
+                <a className="button is-medium" href='https://reactjs.org' target='_blank' rel="noopener noreferrer">
+                  https://reactjs.org
               </a>
+              </div>
             </div>
           </div>
-        </section>
-        <section className="section">
           <div className="columns">
             <div className="column">
               <Timer />
@@ -42,8 +42,8 @@ class App extends Component {
               <MarkdownEditor />
             </div>
           </div>
-        </section>
-      </section>
+        </div>
+      </section >
     );
   }
 }
