@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 import Timer from './Timer';
 import Footer from './Footer'
 import AddTodo from '../containers/AddTodo';
@@ -12,34 +10,33 @@ class App extends Component {
   render() {
     return (
       <section className="section">
-        <div className="container">
-          <div className="columns">
-            <div className="column">
-              <div className="App">
-                <header className="App-header">
-                  <img src={logo} className="App-logo" alt="logo" />
-                  <h1 className="App-title">Welcome to React</h1>
-                </header>
-                <p className="App-intro">
-                  This starter has been modified using some examples found in
-              </p>
-                <a className="button is-medium" href='https://reactjs.org' target='_blank' rel="noopener noreferrer">
-                  https://reactjs.org
-              </a>
+        <div className="columns">
+          <div className="column">
+
+            <section className="hero is-medium is-dark is-bold">
+              <div className="hero-body">
+                <div className="container">
+                  <h1 className="title">Welcome to React</h1>
+                  <h2 className="subtitle">This starter has been modified using some examples found in:</h2>
+                  <a className="button" href='https://reactjs.org' target='_blank' rel="noopener noreferrer">
+                    https://reactjs.org</a>
+                </div>
               </div>
-            </div>
+            </section>
           </div>
+        </div>
+        <div className="container">
           <div className="columns">
             <div className="column">
               <Timer />
             </div>
             <div className="column">
+              <MarkdownEditor />
+            </div>
+            <div className="column">
               <AddTodo />
               <VisibleTodoList />
               <Footer />
-            </div>
-            <div className="column">
-              <MarkdownEditor />
             </div>
           </div>
         </div>
