@@ -1,4 +1,12 @@
-const todos = (state = [], action) => {
+const initialState = [
+  {
+    text: 'Use Redux',
+    completed: false,
+    id: 0
+  }
+]
+
+const todos = (state = initialState, action) => {
   switch (action.type) {
     case 'ADD_TODO':
       return [
@@ -12,7 +20,7 @@ const todos = (state = [], action) => {
     case 'TOGGLE_TODO':
       return state.map(todo =>
         (todo.id === action.id)
-          ? {...todo, completed: !todo.completed}
+          ? { ...todo, completed: !todo.completed }
           : todo
       )
     default:
