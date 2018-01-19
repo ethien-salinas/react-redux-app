@@ -28,6 +28,17 @@ class App extends Component {
                       <p className="subtitle is-6">https://reactjs.org</p>
                     </div>
                   </div>
+                  <div className="media">
+                    <div className="media-left">
+                      <figure className="image is-48x48">
+                        <img src="http://devstickers.com/assets/img/pro/h8ci.png" alt="Redux image" />
+                      </figure>
+                    </div>
+                    <div className="media-content">
+                      <p className="title is-4">Redux</p>
+                      <p className="subtitle is-6">https://redux.js.org/</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
