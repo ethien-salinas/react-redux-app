@@ -39,6 +39,17 @@ class App extends Component {
                       <p className="subtitle is-6">https://redux.js.org/</p>
                     </div>
                   </div>
+                  <div className="media">
+                    <div className="media-left">
+                      <figure className="image is-48x48">
+                        <img src="https://camo.githubusercontent.com/f63754b8412368e820601967af6dea84312b925b/68747470733a2f2f7265616374747261696e696e672e636f6d2f72656163742d726f757465722f616e64726f69642d6368726f6d652d313434783134342e706e67" alt="React Router image" />
+                      </figure>
+                    </div>
+                    <div className="media-content">
+                      <p className="title is-4">React Router</p>
+                      <p className="subtitle is-6">https://redux.js.org/</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
