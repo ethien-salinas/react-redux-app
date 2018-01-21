@@ -50,6 +50,17 @@ class App extends Component {
                       <p className="subtitle is-6">https://redux.js.org/</p>
                     </div>
                   </div>
+                  <div className="media">
+                    <div className="media-left">
+                      <figure className="image is-48x48">
+                        <img src="http://facebook.github.io/jest/img/jest.svg" alt="Jest image" />
+                      </figure>
+                    </div>
+                    <div className="media-content">
+                      <p className="title is-4">Jest</p>
+                      <p className="subtitle is-6">http://facebook.github.io/jest/</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
