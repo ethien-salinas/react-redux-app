@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Timer from './Timer';
+import Header from './Header'
 import Footer from './Footer'
 import AddTodo from '../containers/AddTodo';
 import VisibleTodoList from '../containers/VisibleTodoList'
@@ -12,14 +13,7 @@ class App extends Component {
       <section className="section">
         <div className="columns">
           <div className="column">
-            <section className="hero is-medium is-dark is-bold">
-              <div className="hero-body">
-                <div className="container">
-                  <h1 className="title">Welcome to React</h1>
-                  <h2 className="subtitle">This starter has been modified using some examples found in:</h2>
-                </div>
-              </div>
-            </section>
+            <Header/>
             <div className="media">
               <div className="media-left">
                 <figure className="image is-48x48">
